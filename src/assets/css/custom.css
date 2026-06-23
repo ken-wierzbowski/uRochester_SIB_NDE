@@ -8,13 +8,6 @@
 //  @include mat.system-level-colors(m3-theme.$light-theme);
 //}
 
-/* Variables */
-
-:root {
-  --mat-expansion-container-text-color: #fff;
-}
-
-
 
 /* Save Search Query Functionality *START* */
 
@@ -1035,8 +1028,7 @@ div.cdk-overlay-pane.mat-mdc-select-panel-above, div.mat-mdc-select-panel {
   
 /* Full Record View *START* */
 
-
-nde-view-it-card .mat-expansion-panel {
+nde-view-it-card span.mat-body-medium {
   color: #fff;
 }
 
