@@ -989,6 +989,23 @@ div.cdk-overlay-pane.mat-mdc-select-panel-above, div.mat-mdc-select-panel {
 /* Language Select Icon - White *END* */
   
 /* Landing Page - *START* */
+
+div.custom-search-bar-container h1 {
+  text-shadow: 1px 1px 15px #5b2e00;
+}
+
+.container .top-bar-background-image {
+  background-position: bottom !important;  
+}
+
+.container .custom-search-bar-container h1 {
+  padding-bottom: 5px;
+}
+
+.container .custom-search-bar-container {
+  justify-content: end !important;
+}
+
   ::placeholder {
     color: #333333  !important;
   }
