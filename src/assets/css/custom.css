@@ -449,7 +449,8 @@ nde-search-results-recommendations nde-collapsible-box#resource-recommender-cont
   margin-top: 1rem;
 }
 
-nde-carousel cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
+cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
+  height: unset;
   height: 10rem;
 }
 
@@ -1604,9 +1605,6 @@ button#search-dropdown-container-button-scopes-dropdown.mat-mdc-menu-trigger.sea
 
 @media (max-width: 599.98px) {
 
-nde-carousel cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
-  height: 5rem;
-
 .resource-type-items {
   margin-bottom: .1rem !important;
   margin-top: .1rem !important;
@@ -1775,5 +1773,5 @@ nde-mobile-filters-toggle button.all-filters-btn {
       word-break: normal;
     } 
   }
-}
+
   /* Mobile Styling *END* */
