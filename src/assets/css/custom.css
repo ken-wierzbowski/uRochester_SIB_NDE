@@ -449,8 +449,20 @@ nde-search-results-recommendations nde-collapsible-box#resource-recommender-cont
   margin-top: 1rem;
 }
 
-nde-carousel cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
+cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
+  height: unset;
   height: 10rem;
+}
+
+nde-resource-recommender-card mat-card mat-card-content a.mat-mdc-tooltip-trigger, 
+nde-resource-recommender-card mat-dialog-content mat-card-content div.resource-details a.mat-mdc-tooltip-trigger,
+nde-resource-recommender-card .mat-icon svg path {
+  color: #021BC3 !important;
+}
+
+nde-resource-recommender-card mat-card mat-card-content a.mat-mdc-tooltip-trigger:visited,
+nde-resource-recommender-card .mat-icon svg path:visited {
+  color: #602F51;
 }
 
 nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div.resource-details div h3.resource-header.text-uppercase {
