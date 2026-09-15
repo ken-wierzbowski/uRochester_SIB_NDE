@@ -450,7 +450,7 @@ nde-search-results-recommendations nde-collapsible-box#resource-recommender-cont
 }
 
 nde-carousel cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
-  height: 10em;
+  height: 10rem;
 }
 
 nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div.resource-details div h3.resource-header.text-uppercase {
@@ -1603,6 +1603,9 @@ button#search-dropdown-container-button-scopes-dropdown.mat-mdc-menu-trigger.sea
 }
 
 @media (max-width: 599.98px) {
+
+nde-carousel cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
+  height: 5rem;
 
 .resource-type-items {
   margin-bottom: .1rem !important;
