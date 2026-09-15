@@ -1248,8 +1248,8 @@ nde-citation-action div.mat-mdc-select-trigger div.mat-mdc-select-arrow-wrapper 
     /*cursor: pointer !important; */
   }
 
-  .mat-expansion-panel-content div.mat-expansion-panel-body {
-    padding-right: 0px;
+  nde-full-display-side-bar nde-search-within-journal nde-collapsible-box mat-expansion-panel div.mat-expansion-panel-content-wrapper div.mat-expansion-panel-content div.mat-expansion-panel-body div.search-within-journal-search-bar {
+    background-color: #ffffff;
   }
 
 /* Full Record View *END* */
