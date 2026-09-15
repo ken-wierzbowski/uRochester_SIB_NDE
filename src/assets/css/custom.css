@@ -445,6 +445,18 @@ div.resource-type-filters-container {
    
 /* Resource Recommender Styling *START* */  
 
+nde-search-results-recommendations nde-collapsible-box#resource-recommender-container mat-expansion-panel {
+  margin-top: 1rem;
+}
+
+nde-carousel cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
+  height: 10em;
+}
+
+nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div.resource-details div h3.resource-header.text-uppercase {
+  display: none;
+}
+
 nde-resource-recommender-banner span.banner-name {
   display: none !important;
 }
@@ -534,6 +546,10 @@ nde-resource-recommender-banner span.banner-name {
     }  
   
 /* Brief Results Styling *START* */       
+
+.record-indication-wrapper {
+  vertical-align: center !important;
+}
 
     /* Hide the Expand Results Options toggle button */
 div.filters-wrapper div.filters-actions.flex-row.flex-layout-center.gap-025.ng-star-inserted div.flex-row.flex-layout-center.gap-025.hide-xs.ng-star-inserted,
@@ -1676,6 +1692,7 @@ nde-carousel div.carousel-container div.carousel cdk-virtual-scroll-viewport {
  min-height: 150px !important;
  /* max-height: 150px !important; */
 }
+
 
 nde-landing-page div.home-page-container {
   padding: 1em;
