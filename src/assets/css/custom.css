@@ -442,41 +442,50 @@ div.resource-type-filters-container {
 /*  .mat-expansion-panel  {
     color: #333333 !important;
   }
-   
+
 /* Resource Recommender Styling *START* */  
+
+nde-resource-recommender-card a {
+  color: #021bc3 !important;
+}
 
 nde-search-results-recommendations nde-collapsible-box#resource-recommender-container mat-expansion-panel {
   margin-top: 1rem;
 }
 
-cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.scroll-viewport.cdk-virtual-scrollable.resource-recommender-dynamic-height.cdk-virtual-scroll-orientation-horizontal {
-  height: unset;
-  height: 10rem;
-}
-
-nde-resource-recommender-card mat-card mat-card-content a.mat-mdc-tooltip-trigger, 
-nde-resource-recommender-card mat-dialog-content mat-card-content div.resource-details a.mat-mdc-tooltip-trigger,
-nde-resource-recommender-card .mat-icon svg path {
-  color: #021BC3 !important;
-}
-
-nde-resource-recommender-card mat-card mat-card-content a.mat-mdc-tooltip-trigger:visited,
-nde-resource-recommender-card .mat-icon svg path:visited {
-  color: #602F51;
-}
-
-nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div.resource-details div h3.resource-header.text-uppercase {
-  display: none;
+nde-search-results-recommendations .mat-expansion-panel-content div.mat-expansion-panel-body {
+  padding-right: 24px;
 }
 
 nde-resource-recommender-banner span.banner-name {
   display: none !important;
 }
 
-.cdk-virtual-scroll-orientation-horizontal .cdk-virtual-scroll-content-wrapper {
-  max-height: 100% !important;
+nde-search-results-recommendations h2 {
+  text-transform: none !important;
 }
 
+nde-resource-recommender-card mat-card mat-card-content h4.resource-name,
+ nde-resource-recommender-card mat-dialog-content mat-card-content div.resource-details h4.resource-name {
+  font-weight: bold;
+}
+
+nde-resource-recommender-card mat-card mat-card-content a.mat-mdc-tooltip-trigger, 
+nde-resource-recommender-card mat-dialog-content mat-card-content div.resource-details a.mat-mdc-tooltip-trigger,
+nde-resource-recommender-card .mat-icon svg path,
+nde-resource-recommender-card mat-card button.read-more-inline-btn span.mdc-button__label {
+  color: #021BC3 !important;
+}
+
+nde-resource-recommender-card mat-card mat-card-content a.mat-mdc-tooltip-trigger:visited,
+nde-resource-recommender-card .mat-icon svg path:visited,
+nde-resource-recommender-card mat-card button.read-more-inline-btn span.mdc-button__label:visited {
+  color: #602F51;
+}
+
+nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div.resource-details div h3.resource-header.text-uppercase {
+  display: none;
+}
   /*Flexbox Ordering *START* */
  
   div.resource.resource-type-filters-container {
@@ -536,22 +545,14 @@ nde-resource-recommender-banner span.banner-name {
     font-size: 1.5rem;
  }
   
-  /*
-  div.resource-recommender-banner-overlay button.banner-button {
-    display: none !important;
-  }
-  */
+
   .resource-recommender-banner-overlay {
    bottom: 1rem !important;
   }
 
-/*
-  .resource-recommender-banner-container {
-    height: auto !important;
-  }
-*/
+/* Resource Recommender Styling *END* */  
+  
 
-/* Resource Recommender Styling *END* */
   
   .mat-mdc-mini-fab {
     background-color: #e9e9ed !important;
