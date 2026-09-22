@@ -7,7 +7,12 @@
 //  @include mat.all-component-colors(m3-theme.$light-theme);
 //  @include mat.system-level-colors(m3-theme.$light-theme);
 //}
+*/
 
+:root {
+  --sys-inverse-on-surface: #ffffff;
+  --sys-background: #ffffff;
+}
 
 /* Save Search Query Functionality *START* */
 
@@ -381,6 +386,11 @@ div.scroller-content {
 
   /* Floating Apply Filters Button *START* */
 
+nde-search-filters-side-nav div.scroller-content {
+  padding-bottom: 33vh; 
+}
+
+/*
 div.resource-type-filters-container {
     
     padding-block-end: .2rem;
@@ -393,6 +403,8 @@ div.resource-type-filters-container {
     top: 0;
     z-index: 0;
   }  
+
+  */
 
   /* Floating Apply Filters Button *END* */
 
@@ -778,7 +790,7 @@ nde-filters-group[id^="lds"] span.mdc-button__label {
 /* Did you mean styling *END* */
     
 /* SVG Icon Color Tweaks to Dark Grey #333333 *START* */  
-  mat-icon .mdc-checkbox--selected, .mat-ripple, .link-container a, .carousel-card .mat-mdc-card-content, .resource-type-items :hover, .consolidated-coverage,
+  mat-icon .mdc-checkbox--selected, .mat-ripple, .carousel-card .mat-mdc-card-content, .resource-type-items :hover, .consolidated-coverage,
   .results-per-page mat-select {
     color: #333333 !important;
   }
@@ -1291,10 +1303,6 @@ div.recommendations-wrapper div.section-head {
 
 .unbound_split_primo_recs .unbound_biblio_plain_attrib {
   font-size: .75em !important;
-}
-
-nde-full-display-side-bar {
-  width: 28rem;
 }
 
 .unbound_splitdiv .unbound_footer a:hover {
