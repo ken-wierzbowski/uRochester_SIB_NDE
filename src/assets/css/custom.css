@@ -390,7 +390,9 @@ nde-search-filters-side-nav div.scroller-content {
   padding-bottom: 33vh; 
 }
 
-/*
+  /* Floating Apply Filters Button *END* */
+
+
 div.resource-type-filters-container {
     
     padding-block-end: .2rem;
@@ -404,9 +406,6 @@ div.resource-type-filters-container {
     z-index: 0;
   }  
 
-  */
-
-  /* Floating Apply Filters Button *END* */
 
   button.active-resource-type.mat-mdc-button .mat-mdc-button-persistent-ripple::before {
     background-color: #003b71 /* #FFDA33 */ /*#F5C800*/ !important;
@@ -517,6 +516,7 @@ nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div
 
 .carousel-resource-recommender-card mat-card-content .resource-img {
   object-fit: contain !important;
+  max-height: 8em;
 }
 .resource-recommender-container {
   border-block-start: none !important;
@@ -571,6 +571,10 @@ nde-resource-recommender-card mat-card mat-card-content.mat-mdc-card-content div
     }  
   
 /* Brief Results Styling *START* */       
+
+nde-record-snippet mat-icon[data-mat-icon-name="quotation-marks"]:nth-child(1) svg  {
+    transform: rotate(180deg);
+}
 
 .record-indication-wrapper {
   vertical-align: center !important;
